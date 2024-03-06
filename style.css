@@ -1,0 +1,79 @@
+@font-face {
+    font-family: OldEnglishFive;
+    src: url(OldEnglishFive.ttf);
+}
+html {
+    background-color: #EBE4E0;
+}
+.content {
+    margin: auto;
+    height: 466px;
+    width: 1000px;
+    /* border: 1px solid rgba(56, 51, 51, 0.212); */
+    /* box-shadow: 1px 1px 1px rgba(56, 51, 51, 0.212); */
+    } 
+.header {
+    display: flex;
+    justify-content: space-evenly;
+    height: 200px;
+    width: auto;
+    padding: 5% 5% 0% 5%;
+}
+.heading-text {
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: center;
+    font-weight: 500;
+    }
+.title {
+    margin-bottom: 0;
+    font-size: 50px;
+    font-family: OldEnglishFive;
+}
+.subtitle {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-weight: 600;
+}
+.instructions {
+    /* margin-top: 0; */
+}
+.btn {
+    background-color: #178F45;
+    color: #fff;
+    padding: 10px 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-decoration: none;
+    border-radius: 5%;
+}
+.btn:hover {
+    opacity: 0.8;
+    transition: 0.2s;
+}
+.player-1 {
+    background-color: #8DC5AD;
+}
+.player-2 {
+    background-color: #72A3DB;
+}
+.player-3 {
+    background-color: #E5767C;
+}
+.player-4 {
+    background-color: #F8DAA1;
+}
+
+
+select {
+    border-radius: 40px;
+    width: 50px;
+    height: 25px;
+    outline: none;
+    }
+    
+button {
+    border: none;
+    outline: none;
+    width: 166.66666px;
+    height: 40px;
+}

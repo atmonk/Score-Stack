@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Score Stack</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css" />
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <div class="content">
+      <div class="header">
+        <img src="gameboard.jpeg" alt="Dutch Blitz gameboard"/>
+        <img src="gameboard2.jpeg" alt="Dutch Blitz gameboard in play"/>
+        <img src="gameboard3.jpeg" alt="Dutch Blitz gameboard"/>
+      </div>
+      <div class="heading-text">
+        <h1 class="title">Score Stack</h1>
+        <p class="subtitle">A Vonderful Goot Scorekeeper!</p>
+        <a target="_blank" class="instructions btn" href="https://www.dutchblitz.com/wp-content/uploads/Dutch_Blitz_Directions_Web.pdf">Dutch Blitz Rules</a>  
+      </div>
+
+      <div class="scoreboard">
+        <div class="player-1-name">
+            <p>Player 1</p>
+        </div>
+        <div class="player-2-name">
+            <p>Player 2</p>
+        </div>
+        <div class="player-3-name">
+            <p>Player 3</p>
+        </div>
+        <div class="player-4-name">
+            <p>Player 4</p>
+        </div>
+      </div>
+
+
+      <div class="main">
+        <p class="score">
+          <div class="player-1-score">0</div>
+          <div class="player-2-score">0</div>
+          <div class="player-3-score">0</div>
+          <div class="player-4-score">0</div>
+        </p>
+        <!-- <p class="">Game Setup</p>
+        <p>
+          <span class="input">Playing To:</span>
+          <select name="playingTo" id="">
+            <option value="75">75</option>
+            <option value="10000">Infinite</option>
+          </select>
+        </p> -->
+      </div>
+      <div class="buttons">
+        <button class="btn player-1">+1 Player One</button>
+        <button class="btn player-2">+1 Player Two</button>
+        <button class="btn player-3">+1 Player Three</button>
+        <button class="btn player-4">+1 Player Four</button>
+        <button class="btn reset">Reset</button>
+      </div>
+    </div>
+    <script src="main.js"></script>
+  </body>
+</html>
