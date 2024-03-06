@@ -1,6 +1,6 @@
 # Score Stack
 
-Score Stack is a personal project created for a quick way to keep score of your gruelling matches of Dutch Blitz. Ditch the napkin and pen!
+Score Stack is a personal project created for a quick way to keep score of gruelling matches of Dutch Blitz. Ditch the napkin and pen!
 
 ## Roadmap
 
